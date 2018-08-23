@@ -18,6 +18,7 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "lottie-react-native": "^2.5.6",
     "react": "16.3.1",
     "react-native": "~0.55.2"
   }
