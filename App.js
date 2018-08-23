@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text> Test text</Text>
+        <Text> Lottie example project</Text>
         <LottieView
           source={require('./star.json')}
           autoPlay
