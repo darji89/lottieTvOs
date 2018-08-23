@@ -1,15 +1,20 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import LottieView from 'lottie-react-native';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Text> Test text</Text>
         <LottieView
           source={require('./star.json')}
           autoPlay
           loop
+          style={{
+            height: 200,
+            width: 200,
+          }}
         />
       </View>
     );
